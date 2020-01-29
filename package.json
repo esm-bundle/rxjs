@@ -1,9 +1,9 @@
 {
-  "name": "@esm-bundle/autopublish-template",
+  "name": "@esm-bundle/rxjs",
   "version": "20.0.0",
   "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "index.js",
-  "module": "esm/index.js",
+  "main": "rxjs.js",
+  "module": "esm/rxjs.js",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently yarn:test:unit yarn:test:browser",
@@ -26,17 +26,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/rxjs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/rxjs/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/rxjs#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
-    "autopublish-template": "^20.0.0",
     "chai": "^4.2.0",
     "concurrently": "^5.1.0",
     "husky": "^4.2.1",
@@ -50,7 +49,9 @@
     "release-it": "^12.4.3",
     "release-it-plugin-esm-bundle": "^2.0.0",
     "rollup": "^1.30.1",
-    "rollup-cli": "^1.0.9"
+    "rollup-cli": "^1.0.9",
+    "rollup-plugin-terser": "^5.2.0",
+    "rxjs": "^6.5.4"
   },
   "dependencies": {}
 }

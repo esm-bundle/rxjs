@@ -2,6 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/@esm-bundle/rxjs.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/rxjs) [![build status](https://travis-ci.com/esm-bundle/rxjs.svg?branch=master)](https://travis-ci.com/esm-bundle/rxjs) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/rxjs/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/rxjs)
 
+["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
+
 [Instructions for creating a new esm-bundle repo](https://github.com/esm-bundle/new-repo-instructions)
 
 A repo that tests automatic detection of upstream publishes and the publishing of `@esm-bundle` versions of them.

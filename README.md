@@ -1,6 +1,6 @@
 # rxjs
 
-[![build status](https://travis-ci.com/esm-bundle/rxjs.svg?branch=master)](https://travis-ci.com/esm-bundle/rxjs)
+[![build status](https://travis-ci.com/esm-bundle/rxjs.svg?branch=master)](https://travis-ci.com/esm-bundle/rxjs) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/rxjs/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/rxjs)
 
 [Instructions for creating a new esm-bundle repo](https://github.com/esm-bundle/new-repo-instructions)
 
@@ -19,6 +19,12 @@ https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/rxjs.min.js
 https://unpkg.com/@esm-bundle/rxjs/esm/rxjs.min.js
 
 https://unpkg.com/@esm-bundle/rxjs/system/rxjs.min.js
+
+## Npm
+
+```sh
+npm install rxjs@npm:@esm-bundle/rxjs
+```
 
 ## Yarn
 

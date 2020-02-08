@@ -1,4 +1,5 @@
 import commonjs from "@rollup/plugin-commonjs";
+import resolve from "@rollup/plugin-node-resolve";
 import { terser } from "rollup-plugin-terser";
 import packageJson from "./package.json";
 
@@ -11,15 +12,19 @@ function createConfig(format, isOperators) {
   const filenameExtra = isOperators ? "-operators" : "";
 
   return {
-    input: require.resolve(
-      `rxjs/_esm2015${isOperators ? "/operators" : ""}/index.js`
-    ),
+    input: {
+      rxjs: "src/rxjs.js",
+      "rxjs-operators": "src/rxjs-operators"
+    },
     output: {
-      file: `${dir}/rxjs${filenameExtra}.min.js`,
+      dir,
+      entryFileNames: `[name].min.js`,
+      chunkFileNames: `rxjs-shared.min.js`,
       format,
       banner: `/* rxjs${filenameExtra}@${dependencyVersion} */`
     },
     plugins: [
+      resolve(),
       commonjs(),
       terser({
         output: {
@@ -32,9 +37,4 @@ function createConfig(format, isOperators) {
   };
 }
 
-export default [
-  createConfig("module"),
-  createConfig("system"),
-  createConfig("module", true),
-  createConfig("system", true)
-];
+export default [createConfig("module"), createConfig("system")];

@@ -36,6 +36,7 @@
   "homepage": "https://github.com/esm-bundle/rxjs#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.1.1",
     "chai": "^4.2.0",
     "concurrently": "^5.1.0",
     "husky": "^4.2.1",

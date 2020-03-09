@@ -51,7 +51,7 @@
     "release-it-plugin-esm-bundle": "2.0.0",
     "rollup": "2.0.2",
     "rollup-cli": "1.0.9",
-    "rollup-plugin-terser": "5.2.0",
+    "rollup-plugin-terser": "5.3.0",
     "rxjs": "6.5.4"
   },
   "dependencies": {}

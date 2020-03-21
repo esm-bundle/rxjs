@@ -14,14 +14,14 @@ function createConfig(format, isOperators) {
   return {
     input: {
       rxjs: "src/rxjs.js",
-      "rxjs-operators": "src/rxjs-operators"
+      "rxjs-operators": "src/rxjs-operators",
     },
     output: {
       dir,
       entryFileNames: `[name].min.js`,
       chunkFileNames: `rxjs-shared.min.js`,
       format,
-      banner: `/* rxjs${filenameExtra}@${dependencyVersion} */`
+      banner: `/* rxjs${filenameExtra}@${dependencyVersion} */`,
     },
     plugins: [
       resolve(),
@@ -30,10 +30,10 @@ function createConfig(format, isOperators) {
         output: {
           comments(node, comment) {
             return /^rxjs.*@/.test(comment.value.trim());
-          }
-        }
-      })
-    ]
+          },
+        },
+      }),
+    ],
   };
 }
 

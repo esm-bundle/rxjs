@@ -48,7 +48,7 @@
     "mocha": "7.1.1",
     "prettier": "2.0.2",
     "pretty-quick": "2.0.1",
-    "release-it": "13.3.2",
+    "release-it": "13.4.0",
     "release-it-plugin-esm-bundle": "2.0.0",
     "rollup": "2.2.0",
     "rollup-cli": "1.0.9",

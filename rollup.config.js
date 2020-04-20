@@ -7,21 +7,20 @@ const dependencyVersion = /[0-9.]+$/.exec(
   packageJson.devDependencies["rxjs"]
 )[0];
 
-function createConfig(format, isOperators) {
-  const dir = format === "module" ? "esm" : format;
-  const filenameExtra = isOperators ? "-operators" : "";
+function createConfig(format, target) {
+  const dir = (format === "module" ? "esm" : format) + "/" + target;
 
   return {
     input: {
-      rxjs: "src/rxjs.js",
-      "rxjs-operators": "src/rxjs-operators",
+      rxjs: `src/${target}/rxjs.js`,
+      "rxjs-operators": `src/${target}/rxjs-operators`,
     },
     output: {
       dir,
       entryFileNames: `[name].min.js`,
       chunkFileNames: `rxjs-shared.min.js`,
       format,
-      banner: `/* rxjs${filenameExtra}@${dependencyVersion} */`,
+      banner: `/* rxjs@${dependencyVersion} */`,
     },
     plugins: [
       resolve(),
@@ -37,4 +36,9 @@ function createConfig(format, isOperators) {
   };
 }
 
-export default [createConfig("module"), createConfig("system")];
+export default [
+  createConfig("module", "es5"),
+  createConfig("module", "es2015"),
+  createConfig("system", "es5"),
+  createConfig("system", "es2015"),
+];

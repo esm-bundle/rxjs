@@ -2,7 +2,10 @@
   "name": "@esm-bundle/rxjs",
   "version": "6.5.5-fix.0",
   "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "rxjs.js",
+  "exports": {
+    ".": "./esm/es2015/rxjs.min.js",
+    "./operators": "./esm/es2015/rxjs-operators.min.js"
+  },
   "module": "esm/rxjs.js",
   "type": "module",
   "scripts": {

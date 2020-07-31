@@ -40,7 +40,7 @@
   "homepage": "https://github.com/esm-bundle/rxjs#readme",
   "devDependencies": {
     "esm-bundle-scripts": "1.2.0",
-    "rxjs": "6.6.1"
+    "rxjs": "6.6.2"
   },
   "dependencies": {}
 }

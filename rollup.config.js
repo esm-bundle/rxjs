@@ -13,7 +13,11 @@ function createConfig(format, target) {
   return {
     input: {
       rxjs: `src/${target}/rxjs.js`,
-      "rxjs-operators": `src/${target}/rxjs-operators`,
+      "rxjs-operators": `src/${target}/rxjs-operators.js`,
+      "rxjs-ajax": `src/${target}/rxjs-ajax.js`,
+      "rxjs-fetch": `src/${target}/rxjs-fetch.js`,
+      "rxjs-websocket": `src/${target}/rxjs-websocket.js`,
+      "rxjs-testing": `src/${target}/rxjs-testing.js`,
     },
     output: {
       dir,

@@ -9,7 +9,7 @@
   "module": "esm/rxjs.js",
   "type": "module",
   "scripts": {
-    "test": "yarn build && concurrently -n w: 'yarn:test:*'",
+    "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
@@ -17,7 +17,7 @@
     "build": "rollup -c",
     "prettier": "prettier --write './**/*'",
     "release": "release-it",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "pnpm run build"
   },
   "husky": {
     "hooks": {
@@ -39,8 +39,19 @@
   },
   "homepage": "https://github.com/esm-bundle/rxjs#readme",
   "devDependencies": {
+    "concurrently": "^6.0.0",
     "esm-bundle-scripts": "1.2.0",
+    "husky": "^5.1.1",
+    "karma": "^6.1.1",
+    "karma-firefox-launcher": "^2.1.0",
+    "karma-jasmine": "^4.0.1",
+    "mocha": "^8.3.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "release-it": "^14.4.1",
+    "release-it-plugin-esm-bundle": "^2.1.0",
+    "rollup": "^2.39.1",
+    "rollup-plugin-terser": "^7.0.2",
     "rxjs": "6.6.3"
-  },
-  "dependencies": {}
+  }
 }

@@ -1,5 +1,5 @@
 pre-commit:
   commands:
-    eslint:
+    js:
       glob: "*.{js,jsx}"
       run: pretty-quick --staged && pnpm test

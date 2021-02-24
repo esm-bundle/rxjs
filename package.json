@@ -35,8 +35,10 @@
   "homepage": "https://github.com/esm-bundle/rxjs#readme",
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.2",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "chai": "^4.3.0",
     "concurrently": "^6.0.0",
-    "esm-bundle-scripts": "1.2.0",
     "karma": "^6.1.1",
     "karma-firefox-launcher": "^2.1.0",
     "karma-jasmine": "^4.0.1",

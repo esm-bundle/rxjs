@@ -19,11 +19,6 @@
     "release": "release-it",
     "prepublishOnly": "pnpm run build"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn test"
-    }
-  },
   "files": [
     "esm",
     "system"
@@ -42,7 +37,6 @@
     "@arkweid/lefthook": "^0.7.2",
     "concurrently": "^6.0.0",
     "esm-bundle-scripts": "1.2.0",
-    "husky": "^5.1.1",
     "karma": "^6.1.1",
     "karma-firefox-launcher": "^2.1.0",
     "karma-jasmine": "^4.0.1",

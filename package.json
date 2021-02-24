@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/esm-bundle/rxjs#readme",
   "devDependencies": {
+    "@arkweid/lefthook": "^0.7.2",
     "concurrently": "^6.0.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "^5.1.1",

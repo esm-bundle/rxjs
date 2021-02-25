@@ -1,5 +1,6 @@
 .prettierignore
 .gitignore
+.github/
 LICENSE
 yarn.lock
 yarn-error.log

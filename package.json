@@ -13,9 +13,9 @@
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
-    "test:formatting": "prettier --check './**/*'",
+    "test:formatting": "prettier --check .",
     "build": "rollup -c",
-    "prettier": "prettier --write './**/*'",
+    "format": "prettier --write .",
     "release": "release-it",
     "prepublishOnly": "pnpm run build"
   },

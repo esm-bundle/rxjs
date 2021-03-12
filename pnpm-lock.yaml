@@ -2,7 +2,7 @@ devDependencies:
   '@arkweid/lefthook': 0.7.2
   '@rollup/plugin-commonjs': 17.1.0_rollup@2.41.2
   '@rollup/plugin-node-resolve': 11.2.0_rollup@2.41.2
-  chai: 4.3.3
+  chai: 4.3.4
   concurrently: 6.0.0
   karma: 6.2.0
   karma-firefox-launcher: 2.1.0
@@ -584,7 +584,7 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
-  /chai/4.3.3:
+  /chai/4.3.4:
     dependencies:
       assertion-error: 1.1.0
       check-error: 1.0.2
@@ -596,7 +596,7 @@ packages:
     engines:
       node: '>=4'
     resolution:
-      integrity: sha512-MPSLOZwxxnA0DhLE84klnGPojWFK5KuhP7/j5dTsxpr2S3XlkqJP5WbyYl1gCTWvG2Z5N+HD4F472WsbEZL6Pw==
+      integrity: sha512-yS5H68VYOCtN1cjfwumDSuzn/9c+yza4f3reKXlE5rUg7SFcCEy90gJvydNgOYtblyf4Zi6jIWRnXOgErta0KA==
   /chalk/2.4.2:
     dependencies:
       ansi-styles: 3.2.1
@@ -3354,7 +3354,7 @@ specifiers:
   '@arkweid/lefthook': 0.7.2
   '@rollup/plugin-commonjs': 17.1.0
   '@rollup/plugin-node-resolve': 11.2.0
-  chai: 4.3.3
+  chai: 4.3.4
   concurrently: 6.0.0
   karma: 6.2.0
   karma-firefox-launcher: 2.1.0

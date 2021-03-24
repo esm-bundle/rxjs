@@ -4,9 +4,9 @@ devDependencies:
   '@rollup/plugin-node-resolve': 11.2.0_rollup@2.42.4
   chai: 4.3.4
   concurrently: 6.0.0
-  karma: 6.3.0
+  karma: 6.3.1
   karma-firefox-launcher: 2.1.0
-  karma-jasmine: 4.0.1_karma@6.3.0
+  karma-jasmine: 4.0.1_karma@6.3.1
   mocha: 8.3.2
   prettier: 2.2.1
   pretty-quick: 3.1.0_prettier@2.2.1
@@ -1849,10 +1849,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-dkiyqN2R6fCWt78rciOXJLFDWcQ7QEQi++HgebPJlw1y0ycDjGNDHuSrhdh48QG02fzZKK20WHFWVyBZ6CPngg==
-  /karma-jasmine/4.0.1_karma@6.3.0:
+  /karma-jasmine/4.0.1_karma@6.3.1:
     dependencies:
       jasmine-core: 3.6.0
-      karma: 6.3.0
+      karma: 6.3.1
     dev: true
     engines:
       node: '>= 10'
@@ -1860,7 +1860,7 @@ packages:
       karma: '*'
     resolution:
       integrity: sha512-h8XDAhTiZjJKzfkoO1laMH+zfNlra+dEQHUAjpn5JV1zCPtOIVWGQjLBrqhnzQa/hrU2XrZwSyBa6XjEBzfXzw==
-  /karma/6.3.0:
+  /karma/6.3.1:
     dependencies:
       body-parser: 1.19.0
       braces: 3.0.2
@@ -1890,7 +1890,7 @@ packages:
       node: '>= 10'
     hasBin: true
     resolution:
-      integrity: sha512-Or+x8T4/TWe7ChBaAkdQARjETSbvxsipp5Y+0UMSu4z0YYzy06OA2UdHAmMIx5gLs4a76X916pY1bzGgYuN7BQ==
+      integrity: sha512-Is71g0f1dIpbLTXA+ULpev1i1soczQ1Dr8oum3zSmBFsDl3IWUlTLytsCb9os4v9xvUVWGDz0sCmLO4veANnSw==
   /keyv/3.1.0:
     dependencies:
       json-buffer: 3.0.0
@@ -3378,7 +3378,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 11.2.0
   chai: 4.3.4
   concurrently: 6.0.0
-  karma: 6.3.0
+  karma: 6.3.1
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1
   mocha: 8.3.2

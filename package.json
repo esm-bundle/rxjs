@@ -39,7 +39,7 @@
     "@rollup/plugin-node-resolve": "11.2.0",
     "chai": "4.3.4",
     "concurrently": "6.0.0",
-    "karma": "6.3.0",
+    "karma": "6.3.1",
     "karma-firefox-launcher": "2.1.0",
     "karma-jasmine": "4.0.1",
     "mocha": "8.3.2",

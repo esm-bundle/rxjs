@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@arkweid/lefthook': 0.7.2
+  '@arkweid/lefthook': 0.7.4
   '@rollup/plugin-commonjs': 17.1.0
   '@rollup/plugin-node-resolve': 11.2.1
   chai: 4.3.4
@@ -19,7 +19,7 @@ specifiers:
   rxjs: 6.6.6
 
 devDependencies:
-  '@arkweid/lefthook': 0.7.2
+  '@arkweid/lefthook': 0.7.4
   '@rollup/plugin-commonjs': 17.1.0_rollup@2.42.4
   '@rollup/plugin-node-resolve': 11.2.1_rollup@2.42.4
   chai: 4.3.4
@@ -38,8 +38,9 @@ devDependencies:
 
 packages:
 
-  /@arkweid/lefthook/0.7.2:
-    resolution: {integrity: sha512-r34fl/qiny7564aL+MLmkVbUMjr39vSqSGvUoA7e3FwpvD/ubJkxdDFCDJECvOYiYMXwwaqJc6txXtfnvDY3YQ==}
+  /@arkweid/lefthook/0.7.4:
+    resolution: {integrity: sha512-nXyae1SNRyJIuM9BjptWwxserBnPmOpXyTKGTeYU6FdQlfGsg9j2wDlkOsUKck0DsDMUKro1aba0Iv+EO0RSiA==}
+    cpu: [x64, arm64, x32]
     os: [darwin, linux, win32]
     hasBin: true
     requiresBuild: true

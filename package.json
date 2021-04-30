@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/esm-bundle/rxjs#readme",
   "devDependencies": {
-    "@arkweid/lefthook": "0.7.2",
+    "@arkweid/lefthook": "0.7.4",
     "@rollup/plugin-commonjs": "17.1.0",
     "@rollup/plugin-node-resolve": "11.2.1",
     "chai": "4.3.4",

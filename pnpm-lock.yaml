@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-commonjs': 17.1.0
   '@rollup/plugin-node-resolve': 11.2.1
   chai: 4.3.4
-  concurrently: 6.0.0
+  concurrently: 6.0.2
   karma: 6.3.1
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1
@@ -23,7 +23,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 17.1.0_rollup@2.42.4
   '@rollup/plugin-node-resolve': 11.2.1_rollup@2.42.4
   chai: 4.3.4
-  concurrently: 6.0.0
+  concurrently: 6.0.2
   karma: 6.3.1
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1_karma@6.3.1
@@ -736,8 +736,8 @@ packages:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
-  /concurrently/6.0.0:
-    resolution: {integrity: sha512-Ik9Igqnef2ONLjN2o/OVx1Ow5tymVvvEwQeYCQdD/oV+CN9oWhxLk7ibcBdOtv0UzBqHCEKRwbKceYoTK8t3fQ==}
+  /concurrently/6.0.2:
+    resolution: {integrity: sha512-u+1Q0dJG5BidgUTpz9CU16yoHTt/oApFDQ3mbvHwSDgMjU7aGqy0q8ZQyaZyaNxdwRKTD872Ux3Twc6//sWA+Q==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
@@ -745,7 +745,7 @@ packages:
       date-fns: 2.17.0
       lodash: 4.17.21
       read-pkg: 5.2.0
-      rxjs: 6.6.3
+      rxjs: 6.6.6
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
       tree-kill: 1.2.2
@@ -2530,13 +2530,6 @@ packages:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
     dependencies:
       queue-microtask: 1.2.2
-    dev: true
-
-  /rxjs/6.6.3:
-    resolution: {integrity: sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==}
-    engines: {npm: '>=2.0.0'}
-    dependencies:
-      tslib: 1.14.1
     dev: true
 
   /rxjs/6.6.6:

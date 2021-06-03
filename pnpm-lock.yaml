@@ -7,7 +7,7 @@ specifiers:
   chai: 4.3.4
   concurrently: 6.2.0
   karma: 6.3.3
-  karma-firefox-launcher: 2.1.0
+  karma-firefox-launcher: 2.1.1
   karma-jasmine: 4.0.1
   mocha: 8.4.0
   prettier: 2.3.0
@@ -25,7 +25,7 @@ devDependencies:
   chai: 4.3.4
   concurrently: 6.2.0
   karma: 6.3.3
-  karma-firefox-launcher: 2.1.0
+  karma-firefox-launcher: 2.1.1
   karma-jasmine: 4.0.1_karma@6.3.3
   mocha: 8.4.0
   prettier: 2.3.0
@@ -1720,8 +1720,8 @@ packages:
       graceful-fs: 4.2.6
     dev: true
 
-  /karma-firefox-launcher/2.1.0:
-    resolution: {integrity: sha512-dkiyqN2R6fCWt78rciOXJLFDWcQ7QEQi++HgebPJlw1y0ycDjGNDHuSrhdh48QG02fzZKK20WHFWVyBZ6CPngg==}
+  /karma-firefox-launcher/2.1.1:
+    resolution: {integrity: sha512-VzDMgPseXak9DtfyE1O5bB2BwsMy1zzO1kUxVW1rP0yhC4tDNJ0p3JoFdzvrK4QqVzdqUMa9Rx9YzkdFp8hz3Q==}
     dependencies:
       is-wsl: 2.2.0
       which: 2.0.2

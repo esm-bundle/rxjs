@@ -6,7 +6,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 13.0.0
   chai: 4.3.4
   concurrently: 6.2.0
-  karma: 6.3.3
+  karma: 6.3.4
   karma-firefox-launcher: 2.1.1
   karma-jasmine: 4.0.1
   mocha: 9.0.0
@@ -24,9 +24,9 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.0.0_rollup@2.51.2
   chai: 4.3.4
   concurrently: 6.2.0
-  karma: 6.3.3
+  karma: 6.3.4
   karma-firefox-launcher: 2.1.1
-  karma-jasmine: 4.0.1_karma@6.3.3
+  karma-jasmine: 4.0.1_karma@6.3.4
   mocha: 9.0.0
   prettier: 2.3.1
   pretty-quick: 3.1.0_prettier@2.3.1
@@ -1672,8 +1672,8 @@ packages:
     resolution: {integrity: sha512-VjSeb/lHmkoyd8ryPVIKvOCn4D1koMqY+vqyjjUfc3xyKtP4dYOxM44sZrnqQSzSds3xyOrUTLTC9LVCVgLngw==}
     dev: true
 
-  /isbinaryfile/4.0.6:
-    resolution: {integrity: sha512-ORrEy+SNVqUhrCaal4hA4fBzhggQQ+BaLntyPOdoEiwlKZW9BZiJXjg3RMiruE4tPEI3pyVPpySHQF/dKWperg==}
+  /isbinaryfile/4.0.8:
+    resolution: {integrity: sha512-53h6XFniq77YdW+spoRrebh0mnmTxRPTlcuIArO57lmMdq4uBKFKaeTjnb92oYWrSn/LVL+LT+Hap2tFQj8V+w==}
     engines: {node: '>= 8.0.0'}
     dev: true
 
@@ -1730,18 +1730,18 @@ packages:
       which: 2.0.2
     dev: true
 
-  /karma-jasmine/4.0.1_karma@6.3.3:
+  /karma-jasmine/4.0.1_karma@6.3.4:
     resolution: {integrity: sha512-h8XDAhTiZjJKzfkoO1laMH+zfNlra+dEQHUAjpn5JV1zCPtOIVWGQjLBrqhnzQa/hrU2XrZwSyBa6XjEBzfXzw==}
     engines: {node: '>= 10'}
     peerDependencies:
       karma: '*'
     dependencies:
       jasmine-core: 3.6.0
-      karma: 6.3.3
+      karma: 6.3.4
     dev: true
 
-  /karma/6.3.3:
-    resolution: {integrity: sha512-JRAujkKWaOtO2LmyPH7K2XXRhrxuFAn9loIL9+iiah6vjz+ZLkqdKsySV9clRITGhj10t9baIfbCl6CJ5hu9gQ==}
+  /karma/6.3.4:
+    resolution: {integrity: sha512-hbhRogUYIulfkBTZT7xoPrCYhRBnBoqbbL4fszWD0ReFGUxU+LYBr3dwKdAluaDQ/ynT9/7C+Lf7pPNW4gSx4Q==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
@@ -1752,10 +1752,10 @@ packages:
       connect: 3.7.0
       di: 0.0.1
       dom-serialize: 2.2.1
-      glob: 7.1.6
+      glob: 7.1.7
       graceful-fs: 4.2.6
       http-proxy: 1.18.1
-      isbinaryfile: 4.0.6
+      isbinaryfile: 4.0.8
       lodash: 4.17.21
       log4js: 6.3.0
       mime: 2.5.2
@@ -1766,7 +1766,7 @@ packages:
       socket.io: 3.1.1
       source-map: 0.6.1
       tmp: 0.2.1
-      ua-parser-js: 0.7.24
+      ua-parser-js: 0.7.28
       yargs: 16.2.0
     transitivePeerDependencies:
       - bufferutil
@@ -2493,7 +2493,7 @@ packages:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
     hasBin: true
     dependencies:
-      glob: 7.1.6
+      glob: 7.1.7
     dev: true
 
   /rollup-plugin-terser/7.0.2_rollup@2.51.2:
@@ -2898,8 +2898,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /ua-parser-js/0.7.24:
-    resolution: {integrity: sha512-yo+miGzQx5gakzVK3QFfN0/L9uVhosXBBO7qmnk7c2iw1IhL212wfA3zbnI54B0obGwC/5NWub/iT9sReMx+Fw==}
+  /ua-parser-js/0.7.28:
+    resolution: {integrity: sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==}
     dev: true
 
   /unique-string/2.0.0:

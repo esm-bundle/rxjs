@@ -12,7 +12,7 @@ specifiers:
   mocha: 9.0.3
   prettier: 2.3.2
   pretty-quick: 3.1.1
-  release-it: 14.11.1
+  release-it: 14.11.3
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.56.1
   rollup-plugin-terser: 7.0.2
@@ -30,7 +30,7 @@ devDependencies:
   mocha: 9.0.3
   prettier: 2.3.2
   pretty-quick: 3.1.1_prettier@2.3.2
-  release-it: 14.11.1
+  release-it: 14.11.3
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.56.1
   rollup-plugin-terser: 7.0.2_rollup@2.56.1
@@ -102,7 +102,7 @@ packages:
       '@octokit/graphql': 4.6.0
       '@octokit/request': 5.6.0
       '@octokit/request-error': 2.1.0
-      '@octokit/types': 6.21.1
+      '@octokit/types': 6.24.0
       before-after-hook: 2.2.2
       universal-user-agent: 6.0.0
     dev: true
@@ -123,10 +123,6 @@ packages:
       universal-user-agent: 6.0.0
     dev: true
 
-  /@octokit/openapi-types/9.1.1:
-    resolution: {integrity: sha512-xmyPP9tVb4T4A6Lk6SL6ScnIqAHpPV4jfMZI8VtY286212ri9J/6IFGuLsZ26daADUmriuLejake4k+azEfnaw==}
-    dev: true
-
   /@octokit/openapi-types/9.4.0:
     resolution: {integrity: sha512-rKRkXikOJgDNImPl49IJuECLVXjj+t4qOXHhl8SBjMQCGGp1w4m5Ud/0kfdUx+zCpTvBN8vaOUDF4nnboZoOtQ==}
     dev: true
@@ -137,7 +133,7 @@ packages:
       '@octokit/core': '>=2'
     dependencies:
       '@octokit/core': 3.5.1
-      '@octokit/types': 6.21.1
+      '@octokit/types': 6.24.0
     dev: true
 
   /@octokit/plugin-request-log/1.0.3_@octokit+core@3.5.1:
@@ -184,12 +180,6 @@ packages:
       '@octokit/plugin-paginate-rest': 2.10.0_@octokit+core@3.5.1
       '@octokit/plugin-request-log': 1.0.3_@octokit+core@3.5.1
       '@octokit/plugin-rest-endpoint-methods': 5.7.0_@octokit+core@3.5.1
-    dev: true
-
-  /@octokit/types/6.21.1:
-    resolution: {integrity: sha512-PP+m3T5EWZKawru4zi/FvX8KL2vkO5f1fLthx78/7743p7RtJUevt3z7698k+7oAYRA7YuVqfXthSEHqkDvZ8g==}
-    dependencies:
-      '@octokit/openapi-types': 9.1.1
     dev: true
 
   /@octokit/types/6.24.0:
@@ -963,11 +953,6 @@ packages:
   /defer-to-connect/2.0.0:
     resolution: {integrity: sha512-bYL2d05vOSf1JEZNx5vSAtPuBMkX8K9EUutg7zlKvTqKXHt7RhWJFbmd7qakVuf13i+IkGmp6FwSsONOf6VYIg==}
     engines: {node: '>=10'}
-    dev: true
-
-  /define-lazy-prop/2.0.0:
-    resolution: {integrity: sha512-Ds09qNh8yw3khSjiJjiUInaGX9xlqZDY7JVryGxdxV7NPeuqQfplOpQ66yJFZut3jLa5zOwkXw1g9EI2uKh4Og==}
-    engines: {node: '>=8'}
     dev: true
 
   /delayed-stream/1.0.0:
@@ -2145,11 +2130,10 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /open/8.2.1:
-    resolution: {integrity: sha512-rXILpcQlkF/QuFez2BJDf3GsqpjGKbkUUToAIGo9A0Q6ZkoSGogZJulrUdwRkrAsoQvoZsrjCYt8+zblOk7JQQ==}
-    engines: {node: '>=12'}
+  /open/7.4.2:
+    resolution: {integrity: sha512-MVHddDVweXZF3awtlAS+6pgKLlm/JgxZ90+/NBurBoQctVOOB/zDdVjcyPzQ+0laDGbsWgrRkflI65sQeOgT9Q==}
+    engines: {node: '>=8'}
     dependencies:
-      define-lazy-prop: 2.0.0
       is-docker: 2.1.1
       is-wsl: 2.2.0
     dev: true
@@ -2476,8 +2460,8 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it/14.11.1:
-    resolution: {integrity: sha512-u7hEbA1GwIF8SusxS6Ap9gVDbW79OCOhiFeGYgS21kN591kLpB/c1Xr4Nxm3rl4/LcnQD6P8kjCHI3+Qof/SwA==}
+  /release-it/14.11.3:
+    resolution: {integrity: sha512-dE7x/p4BGVpEYQynwXFEPMCezH1XNGhXI3tczjlbX8rHNOnV8F08+q/SPaqmwfjca667/FGxbLbi1dIkc9qOPw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -2500,7 +2484,7 @@ packages:
       lodash: 4.17.21
       mime-types: 2.1.32
       new-github-release-url: 1.0.0
-      open: 8.2.1
+      open: 7.4.2
       ora: 5.4.1
       os-name: 4.0.1
       parse-json: 5.2.0

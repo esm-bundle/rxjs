@@ -23,6 +23,23 @@ function createConfig(format, target) {
       dir,
       entryFileNames: `[name].min.js`,
       chunkFileNames: `rxjs-shared.min.js`,
+      manualChunks: (id, { getModuleInfo }) => {
+        if (getModuleInfo(id).isEntry) {
+          return;
+        }
+        const indexOfNodeModules = id.indexOf("/node_modules/");
+        if (indexOfNodeModules >= 0) {
+          // we want to place 'rxjs/testing' code in a separate chunk, because it is used mainly for tests
+          if (id.indexOf("/internal/testing/", indexOfNodeModules) > 0) {
+            return "internal/testing";
+          }
+          // everything else goes into a single separate chunk
+          // ajax, fetch, sockets are too small to separate them similar to 'rxjs/testing'.
+          else if (id.indexOf("/internal/", indexOfNodeModules) > 0) {
+            return "internal";
+          }
+        }
+      },
       format,
       banner: `/* rxjs@${dependencyVersion} */`,
     },

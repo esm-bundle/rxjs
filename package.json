@@ -10,7 +10,7 @@
   "type": "module",
   "scripts": {
     "modify-package-json": "node ./hacky-build-scripts/modify-v7-package.js",
-    "postinstall": "pnpm run modify-package-json",
+    "prepare": "pnpm run modify-package-json",
     "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",

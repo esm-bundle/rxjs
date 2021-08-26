@@ -1,1 +1,1 @@
-export * from "rxjs/_esm5/operators/index";
+export * from "rxjs/operators";

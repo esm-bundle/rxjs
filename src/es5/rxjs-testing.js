@@ -1,1 +1,1 @@
-export * from "rxjs/_esm5/testing/index";
+export * from "rxjs/testing";

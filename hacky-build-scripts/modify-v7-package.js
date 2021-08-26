@@ -1,51 +1,57 @@
 import { resolve } from "path";
 import { readFileSync, writeFileSync } from "fs";
 
-const exportsToAdd = [
+const exportsToModify = [
   {
-    "./es2015": {
-      default: "./dist/esm/index.js",
+    ".": {
+      es2015: "./dist/esm/index.js",
     },
   },
   {
-    "./es2015/ajax": {
-      default: "./dist/esm/ajax/index.js",
+    "./ajax": {
+      es2015: "./dist/esm/ajax/index.js",
     },
   },
   {
-    "./es2015/fetch": {
-      default: "./dist/esm/fetch/index.js",
+    "./fetch": {
+      es2015: "./dist/esm/fetch/index.js",
     },
   },
   {
-    "./es2015/operators": {
-      default: "./dist/esm/operators/index.js",
+    "./operators": {
+      es2015: "./dist/esm/operators/index.js",
     },
   },
   {
-    "./es2015/testing": {
-      default: "./dist/esm/testing/index.js",
+    "./testing": {
+      es2015: "./dist/esm/testing/index.js",
     },
   },
   {
-    "./es2015/webSocket": {
-      default: "./dist/esm/webSocket/index.js",
+    "./webSocket": {
+      es2015: "./dist/esm/webSocket/index.js",
     },
   },
 ];
 
-exportsToAdd.forEach((_export) => {
+exportsToModify.forEach((_export) => {
   const packagePath = `${resolve("node_modules/rxjs")}/package.json`;
-  addExportToPackageJson(_export, packagePath);
+  modifyExportInPackageJson(_export, packagePath);
 });
 
-function addExportToPackageJson(_export, packageJSONPath) {
+function modifyExportInPackageJson(_export, packageJSONPath) {
   try {
     const packageJSON = JSON.parse(readFileSync(packageJSONPath, "utf-8"));
     // only add the export if rxjs version is v7
     const isVersion7 = packageJSON.version.startsWith("7");
+    const key = Object.keys(_export)[0];
     if (isVersion7) {
-      packageJSON.exports = { ...packageJSON.exports, ..._export };
+      if (packageJSON.exports[key] !== undefined) {
+        packageJSON.exports[key] = {
+          ..._export[key],
+          ...packageJSON.exports[key],
+        };
+      }
       writeFileSync(packageJSONPath, JSON.stringify(packageJSON, undefined, 2));
       console.info(
         `successfully added export ${Object.keys(_export)} to package.json`

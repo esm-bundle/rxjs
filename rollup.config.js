@@ -12,12 +12,12 @@ function createConfig(format, target) {
 
   return {
     input: {
-      rxjs: `src/${target}/rxjs.js`,
-      "rxjs-operators": `src/${target}/rxjs-operators.js`,
-      "rxjs-ajax": `src/${target}/rxjs-ajax.js`,
-      "rxjs-fetch": `src/${target}/rxjs-fetch.js`,
-      "rxjs-websocket": `src/${target}/rxjs-websocket.js`,
-      "rxjs-testing": `src/${target}/rxjs-testing.js`,
+      rxjs: `src/rxjs.js`,
+      "rxjs-operators": `src/rxjs-operators.js`,
+      "rxjs-ajax": `src/rxjs-ajax.js`,
+      "rxjs-fetch": `src/rxjs-fetch.js`,
+      "rxjs-websocket": `src/rxjs-websocket.js`,
+      "rxjs-testing": `src/rxjs-testing.js`,
     },
     output: {
       dir,
@@ -45,7 +45,7 @@ function createConfig(format, target) {
     },
     plugins: [
       resolve({
-        browser: true,
+        exportConditions: target === "es2015" ? ["es2015"] : undefined,
       }),
       commonjs(),
       terser({

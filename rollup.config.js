@@ -44,7 +44,9 @@ function createConfig(format, target) {
       banner: `/* rxjs@${dependencyVersion} */`,
     },
     plugins: [
-      resolve(),
+      resolve({
+        browser: true,
+      }),
       commonjs(),
       terser({
         output: {

@@ -9,6 +9,8 @@
   "module": "esm/rxjs.js",
   "type": "module",
   "scripts": {
+    "modify-package-json": "node ./hacky-build-scripts/modify-v7-package.js",
+    "postinstall": "pnpm run modify-package-json",
     "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
@@ -49,6 +51,6 @@
     "release-it-plugin-esm-bundle": "2.1.0",
     "rollup": "2.56.3",
     "rollup-plugin-terser": "7.0.2",
-    "rxjs": "6.6.7"
+    "rxjs": "7.0.0"
   }
 }

@@ -38,7 +38,7 @@
   "devDependencies": {
     "@arkweid/lefthook": "0.7.6",
     "@rollup/plugin-commonjs": "20.0.0",
-    "@rollup/plugin-node-resolve": "13.0.4",
+    "@rollup/plugin-node-resolve": "13.0.5",
     "chai": "4.3.4",
     "concurrently": "6.2.1",
     "karma": "6.3.4",

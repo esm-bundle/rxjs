@@ -16,7 +16,7 @@ specifiers:
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.58.0
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.3.0
+  rxjs: 7.3.1
 
 devDependencies:
   '@arkweid/lefthook': 0.7.6
@@ -34,7 +34,7 @@ devDependencies:
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.58.0
   rollup-plugin-terser: 7.0.2_rollup@2.58.0
-  rxjs: 7.3.0
+  rxjs: 7.3.1
 
 packages:
 
@@ -2578,6 +2578,12 @@ packages:
 
   /rxjs/7.3.0:
     resolution: {integrity: sha512-p2yuGIg9S1epc3vrjKf6iVb3RCaAYjYskkO+jHIaV0IjOPlJop4UnodOoFb2xeNwlguqLYvGw1b1McillYb5Gw==}
+    dependencies:
+      tslib: 2.1.0
+    dev: true
+
+  /rxjs/7.3.1:
+    resolution: {integrity: sha512-vNenx7gqjPyeKpRnM6S5Ksm/oFTRijWWzYlRON04KaehZ3YjDwEmVjGUGo0TKWVjeNXOujVRlh0K1drUbcdPkw==}
     dependencies:
       tslib: 2.1.0
     dev: true

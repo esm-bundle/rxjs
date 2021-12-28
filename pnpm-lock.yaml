@@ -16,7 +16,7 @@ specifiers:
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.62.0
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.5.0
+  rxjs: 7.5.1
 
 devDependencies:
   '@arkweid/lefthook': 0.7.7
@@ -34,7 +34,7 @@ devDependencies:
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.62.0
   rollup-plugin-terser: 7.0.2_rollup@2.62.0
-  rxjs: 7.5.0
+  rxjs: 7.5.1
 
 packages:
 
@@ -1506,7 +1506,7 @@ packages:
       mute-stream: 0.0.8
       ora: 5.4.1
       run-async: 2.4.1
-      rxjs: 7.5.0
+      rxjs: 7.5.1
       string-width: 4.2.0
       strip-ansi: 6.0.0
       through: 2.3.8
@@ -2523,8 +2523,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.5.0:
-    resolution: {integrity: sha512-fuCKAfFawVYX0pyFlETtYnXI+5iiY9Dftgk+VdgeOq+Qyi9ZDWckHZRDaXRt5WCNbbLkmAheoSGDiceyCIKNZA==}
+  /rxjs/7.5.1:
+    resolution: {integrity: sha512-KExVEeZWxMZnZhUZtsJcFwz8IvPvgu4G2Z2QyqjZQzUGr32KDYuSxrEYO4w3tFFNbfLozcrKUTvTPi+E9ywJkQ==}
     dependencies:
       tslib: 2.1.0
     dev: true

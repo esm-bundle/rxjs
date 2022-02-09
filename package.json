@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/rxjs",
-  "version": "7.5.3",
+  "version": "7.5.4",
   "description": "Repo to test esm-bundle's automatic publishing",
   "exports": {
     ".": "./esm/es2015/rxjs.min.js",

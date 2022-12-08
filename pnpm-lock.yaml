@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@arkweid/lefthook': 0.7.7
-  '@rollup/plugin-commonjs': 23.0.3
+  '@rollup/plugin-commonjs': 23.0.4
   '@rollup/plugin-node-resolve': 15.0.1
   chai: 4.3.4
   concurrently: 7.6.0
@@ -20,7 +20,7 @@ specifiers:
 
 devDependencies:
   '@arkweid/lefthook': 0.7.7
-  '@rollup/plugin-commonjs': 23.0.3_rollup@2.79.1
+  '@rollup/plugin-commonjs': 23.0.4_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
   chai: 4.3.4
   concurrently: 7.6.0
@@ -235,8 +235,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-commonjs/23.0.3_rollup@2.79.1:
-    resolution: {integrity: sha512-31HxrT5emGfTyIfAs1lDQHj6EfYxTXcwtX5pIIhq+B/xZBNIqQ179d/CkYxlpYmFCxT78AeU4M8aL8Iv/IBxFA==}
+  /@rollup/plugin-commonjs/23.0.4_rollup@2.79.1:
+    resolution: {integrity: sha512-bOPJeTZg56D2MCm+TT4psP8e8Jmf1Jsi7pFUMl8BN5kOADNzofNHe47+84WVCt7D095xPghC235/YKuNDEhczg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0
@@ -3233,6 +3233,7 @@ packages:
 
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
+    deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: true
 
   /spawn-command/0.0.2-1:

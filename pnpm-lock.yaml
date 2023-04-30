@@ -10,7 +10,7 @@ specifiers:
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0
   mocha: 10.2.0
-  prettier: 2.8.7
+  prettier: 2.8.8
   pretty-quick: 3.1.3
   release-it: 15.10.2
   release-it-plugin-esm-bundle: 3.0.0
@@ -28,8 +28,8 @@ devDependencies:
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0_karma@6.4.1
   mocha: 10.2.0
-  prettier: 2.8.7
-  pretty-quick: 3.1.3_prettier@2.8.7
+  prettier: 2.8.8
+  pretty-quick: 3.1.3_prettier@2.8.8
   release-it: 15.10.2
   release-it-plugin-esm-bundle: 3.0.0_release-it@15.10.2
   rollup: 2.79.1
@@ -2816,13 +2816,13 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.8.7:
-    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
+  /prettier/2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
 
-  /pretty-quick/3.1.3_prettier@2.8.7:
+  /pretty-quick/3.1.3_prettier@2.8.8:
     resolution: {integrity: sha512-kOCi2FJabvuh1as9enxYmrnBC6tVMoVOenMaBqRfsvBHB0cbpYHjdQEpSglpASDFEXVwplpcGR4CLEaisYAFcA==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -2835,7 +2835,7 @@ packages:
       ignore: 5.1.8
       mri: 1.1.6
       multimatch: 4.0.0
-      prettier: 2.8.7
+      prettier: 2.8.8
     dev: true
 
   /promise.allsettled/1.0.6:

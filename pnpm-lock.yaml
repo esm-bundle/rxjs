@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@arkweid/lefthook': 0.7.7
-  '@rollup/plugin-commonjs': 25.0.5
+  '@rollup/plugin-commonjs': 25.0.7
   '@rollup/plugin-node-resolve': 15.2.3
   chai: 4.3.4
   concurrently: 8.2.1
@@ -20,7 +20,7 @@ specifiers:
 
 devDependencies:
   '@arkweid/lefthook': 0.7.7
-  '@rollup/plugin-commonjs': 25.0.5_rollup@2.79.1
+  '@rollup/plugin-commonjs': 25.0.7_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.2.3_rollup@2.79.1
   chai: 4.3.4
   concurrently: 8.2.1
@@ -80,8 +80,8 @@ packages:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
     dev: true
 
-  /@jridgewell/sourcemap-codec/1.4.14:
-    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
+  /@jridgewell/sourcemap-codec/1.4.15:
+    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
     dev: true
 
   /@ljharb/through/2.3.9:
@@ -249,8 +249,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-commonjs/25.0.5_rollup@2.79.1:
-    resolution: {integrity: sha512-xY8r/A9oisSeSuLCTfhssyDjo9Vp/eDiRLXkg1MXCcEEgEjPmLU+ZyDB20OOD0NlyDa/8SGbK5uIggF5XTx77w==}
+  /@rollup/plugin-commonjs/25.0.7_rollup@2.79.1:
+    resolution: {integrity: sha512-nEvcR+LRjEjsaSsc4x3XZfCCvZIaSMenZu/OiwOKGN2UhQpAYI7ru7czFvyWbErlpoGjnSX3D5Ch5FcMA3kRWQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0||^4.0.0
@@ -263,7 +263,7 @@ packages:
       estree-walker: 2.0.2
       glob: 8.0.3
       is-reference: 1.2.1
-      magic-string: 0.27.0
+      magic-string: 0.30.5
       rollup: 2.79.1
     dev: true
 
@@ -2462,11 +2462,11 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
-  /magic-string/0.27.0:
-    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
+  /magic-string/0.30.5:
+    resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==}
     engines: {node: '>=12'}
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
   /media-typer/0.3.0:

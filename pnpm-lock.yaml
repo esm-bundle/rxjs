@@ -11,7 +11,7 @@ specifiers:
   karma-jasmine: 5.1.0
   mocha: 10.2.0
   prettier: 2.8.8
-  pretty-quick: 3.1.4
+  pretty-quick: 3.2.1
   release-it: 17.0.1
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.1
@@ -29,7 +29,7 @@ devDependencies:
   karma-jasmine: 5.1.0_karma@6.4.2
   mocha: 10.2.0
   prettier: 2.8.8
-  pretty-quick: 3.1.4_prettier@2.8.8
+  pretty-quick: 3.2.1_prettier@2.8.8
   release-it: 17.0.1
   release-it-plugin-esm-bundle: 3.0.0_release-it@17.0.1
   rollup: 2.79.1
@@ -1666,7 +1666,7 @@ packages:
     dependencies:
       '@sindresorhus/merge-streams': 1.0.0
       fast-glob: 3.3.2
-      ignore: 5.2.4
+      ignore: 5.3.0
       path-type: 5.0.0
       slash: 5.1.0
       unicorn-magic: 0.1.0
@@ -1848,11 +1848,6 @@ packages:
 
   /ieee754/1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
-    dev: true
-
-  /ignore/5.2.4:
-    resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
-    engines: {node: '>= 4'}
     dev: true
 
   /ignore/5.3.0:
@@ -2930,8 +2925,8 @@ packages:
     hasBin: true
     dev: true
 
-  /pretty-quick/3.1.4_prettier@2.8.8:
-    resolution: {integrity: sha512-/sx+sUrD52omQQII19m7Zw4gZevQTbA73HDMqzFoBIAf6pCL4kVxSk3O9IRN9Ud/wt/Q068/WOdgiBJeMI7EbQ==}
+  /pretty-quick/3.2.1_prettier@2.8.8:
+    resolution: {integrity: sha512-eeoyODyxk6SGTWDwIddoCKaCbgzI/BF17PuRC+ejXWDja5TS6iiXF1emmPY1nXKVwDVPsQ6WudYmD/mlj1EZng==}
     engines: {node: '>=10.13'}
     hasBin: true
     peerDependencies:
@@ -2944,6 +2939,7 @@ packages:
       mri: 1.2.0
       multimatch: 5.0.0
       prettier: 2.8.8
+      tslib: 2.6.2
     dev: true
 
   /promise.allsettled/1.0.7:
@@ -3640,6 +3636,10 @@ packages:
 
   /tslib/2.1.0:
     resolution: {integrity: sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==}
+    dev: true
+
+  /tslib/2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
   /type-detect/4.0.8:

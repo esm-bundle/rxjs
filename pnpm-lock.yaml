@@ -12,7 +12,7 @@ specifiers:
   mocha: 10.2.0
   prettier: 2.8.8
   pretty-quick: 4.0.0
-  release-it: 17.0.2
+  release-it: 17.0.3
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2
@@ -30,8 +30,8 @@ devDependencies:
   mocha: 10.2.0
   prettier: 2.8.8
   pretty-quick: 4.0.0_prettier@2.8.8
-  release-it: 17.0.2
-  release-it-plugin-esm-bundle: 3.0.0_release-it@17.0.2
+  release-it: 17.0.3
+  release-it-plugin-esm-bundle: 3.0.0_release-it@17.0.3
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
   rxjs: 7.8.1
@@ -709,11 +709,6 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       restore-cursor: 4.0.0
-    dev: true
-
-  /cli-spinners/2.9.0:
-    resolution: {integrity: sha512-4/aL9X3Wh0yiMQlE+eeRhWP6vclO3QRtw1JHKIT0FFUs5FjpFmESqtMvYZ0+lbzBw900b95mS0hohy+qn2VK/g==}
-    engines: {node: '>=6'}
     dev: true
 
   /cli-spinners/2.9.2:
@@ -2630,7 +2625,7 @@ packages:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.9.0
+      cli-spinners: 2.9.2
       is-interactive: 1.0.0
       is-unicode-supported: 0.1.0
       log-symbols: 4.1.0
@@ -2653,12 +2648,12 @@ packages:
       strip-ansi: 7.1.0
     dev: true
 
-  /os-name/6.0.0:
-    resolution: {integrity: sha512-bv608E0UX86atYi2GMGjDe0vF/X1TJjemNS8oEW6z22YW1Rc3QykSYoGfkQbX0zZX9H0ZB6CQP/3GTf1I5hURg==}
-    engines: {node: '>=18'}
+  /os-name/5.1.0:
+    resolution: {integrity: sha512-YEIoAnM6zFmzw3PQ201gCVCIWbXNyKObGlVvpAVvraAeOHnlYVKFssbA/riRX5R40WA6kKrZ7Dr7dWzO3nKSeQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       macos-release: 3.2.0
-      windows-release: 6.0.0
+      windows-release: 5.1.1
     dev: true
 
   /os-tmpdir/1.0.2:
@@ -2971,16 +2966,16 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it-plugin-esm-bundle/3.0.0_release-it@17.0.2:
+  /release-it-plugin-esm-bundle/3.0.0_release-it@17.0.3:
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 17.0.2
+      release-it: 17.0.3
     dev: true
 
-  /release-it/17.0.2:
-    resolution: {integrity: sha512-ax1jg2CVRd85anKT9xVrFKSZ08otYOzccQHb8nWPeus3dRg5E2ySoSObP1ADfdwbLmKEiHaUvbnZcbVLpQNbzA==}
+  /release-it/17.0.3:
+    resolution: {integrity: sha512-QjTCmvQm91pwLEbvavEs9jofHNe8thsb9Uimin+8DNSwFRdUd73p0Owy2PP/Dzh/EegRkKq/o+4Pn1xp8pC1og==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
@@ -3002,7 +2997,7 @@ packages:
       node-fetch: 3.3.2
       open: 10.0.3
       ora: 8.0.1
-      os-name: 6.0.0
+      os-name: 5.1.0
       promise.allsettled: 1.0.7
       proxy-agent: 6.3.1
       semver: 7.5.4
@@ -3717,11 +3712,11 @@ packages:
     resolution: {integrity: sha512-qNXwI591Z88c8bWxp+yjV60Ch4F8Riawe3iGxbzquhy8Xs9m+0+SLFBGb/0yCTIDElawtaImC37fYZ+dr32KqQ==}
     dev: true
 
-  /windows-release/6.0.0:
-    resolution: {integrity: sha512-qng0N206UCKRgN+fc6Y+ERV4itBoXxLuElzl7guDe6bxDqMEyZ5POekJEy4+3traFDUM/aeBwR7/PpHpZiP8gQ==}
-    engines: {node: '>=18'}
+  /windows-release/5.1.1:
+    resolution: {integrity: sha512-NMD00arvqcq2nwqc5Q6KtrSRHK+fVD31erE5FEMahAw5PmVCgD7MUXodq3pdZSUkqA9Cda2iWx6s1XYwiJWRmw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      execa: 8.0.1
+      execa: 5.1.1
     dev: true
 
   /workerpool/6.2.1:

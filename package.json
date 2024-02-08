@@ -44,7 +44,7 @@
     "karma": "6.4.2",
     "karma-firefox-launcher": "2.1.2",
     "karma-jasmine": "5.1.0",
-    "mocha": "10.2.0",
+    "mocha": "10.3.0",
     "prettier": "2.8.8",
     "pretty-quick": "4.0.0",
     "release-it": "17.0.3",

@@ -12,7 +12,7 @@ specifiers:
   mocha: 10.4.0
   prettier: 2.8.8
   pretty-quick: 4.0.0
-  release-it: 17.3.0
+  release-it: 17.4.0
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2
@@ -30,8 +30,8 @@ devDependencies:
   mocha: 10.4.0
   prettier: 2.8.8
   pretty-quick: 4.0.0_prettier@2.8.8
-  release-it: 17.3.0
-  release-it-plugin-esm-bundle: 3.0.0_release-it@17.3.0
+  release-it: 17.4.0
+  release-it-plugin-esm-bundle: 3.0.0_release-it@17.4.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
   rxjs: 7.8.1
@@ -80,8 +80,8 @@ packages:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
     dev: true
 
-  /@inquirer/figures/1.0.2:
-    resolution: {integrity: sha512-4F1MBwVr3c/m4bAUef6LgkvBfSjzwH+OfldgHqcuacWwSUetFebM2wi58WfG9uk1rR98U6GwLed4asLJbwdV5w==}
+  /@inquirer/figures/1.0.3:
+    resolution: {integrity: sha512-ErXXzENMH5pJt5/ssXV0DfWUZqly8nGzf0UcBV9xTnP+KyffE2mqyxIMBrZ8ijQck2nU0TQm40EQB53YreyWHw==}
     engines: {node: '>=18'}
     dev: true
 
@@ -130,7 +130,7 @@ packages:
       '@octokit/graphql': 7.1.0
       '@octokit/request': 8.4.0
       '@octokit/request-error': 5.1.0
-      '@octokit/types': 13.4.0
+      '@octokit/types': 13.5.0
       before-after-hook: 2.2.2
       universal-user-agent: 6.0.0
     dev: true
@@ -149,16 +149,12 @@ packages:
     engines: {node: '>= 18'}
     dependencies:
       '@octokit/request': 8.4.0
-      '@octokit/types': 13.4.0
+      '@octokit/types': 13.5.0
       universal-user-agent: 6.0.0
     dev: true
 
   /@octokit/openapi-types/20.0.0:
     resolution: {integrity: sha512-EtqRBEjp1dL/15V7WiX5LJMIxxkdiGJnabzYx5Apx4FkQIFgAfKumXeYAqqJCj1s+BMX4cPFIFC4OLCR6stlnA==}
-    dev: true
-
-  /@octokit/openapi-types/22.0.1:
-    resolution: {integrity: sha512-1yN5m1IMNXthoBDUXFF97N1gHop04B3H8ws7wtOr8GgRyDO1gKALjwMHARNBoMBiB/2vEe/vxstrApcJZzQbnQ==}
     dev: true
 
   /@octokit/openapi-types/22.2.0:
@@ -198,7 +194,7 @@ packages:
     resolution: {integrity: sha512-GETXfE05J0+7H2STzekpKObFe765O5dlAKUTLNGeH+x47z7JjXHfsHKo5z21D/o/IOZTUEI6nyWyR+bZVP/n5Q==}
     engines: {node: '>= 18'}
     dependencies:
-      '@octokit/types': 13.4.0
+      '@octokit/types': 13.5.0
       deprecation: 2.3.1
       once: 1.4.0
     dev: true
@@ -209,7 +205,7 @@ packages:
     dependencies:
       '@octokit/endpoint': 9.0.2
       '@octokit/request-error': 5.1.0
-      '@octokit/types': 13.4.0
+      '@octokit/types': 13.5.0
       universal-user-agent: 6.0.0
     dev: true
 
@@ -227,12 +223,6 @@ packages:
     resolution: {integrity: sha512-1rhSOfRa6H9w4YwK0yrf5faDaDTb+yLyBUKOCV4xtCDB5VmIPqd/v9yr9o6SAzOAlRxMiRiCic6JVM1/kunVkw==}
     dependencies:
       '@octokit/openapi-types': 20.0.0
-    dev: true
-
-  /@octokit/types/13.4.0:
-    resolution: {integrity: sha512-WlMegy3lPXYWASe3k9Jslc5a0anrYAYMWtsFrxBTdQjS70hvLH6C+PGvHbOsgy3RA3LouGJoU/vAt4KarecQLQ==}
-    dependencies:
-      '@octokit/openapi-types': 22.0.1
     dev: true
 
   /@octokit/types/13.5.0:
@@ -1824,11 +1814,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /inquirer/9.2.22:
-    resolution: {integrity: sha512-SqLLa/Oe5rZUagTR9z+Zd6izyatHglbmbvVofo1KzuVB54YHleWzeHNLoR7FOICGOeQSqeLh1cordb3MzhGcEw==}
+  /inquirer/9.2.23:
+    resolution: {integrity: sha512-kod5s+FBPIDM2xiy9fu+6wdU/SkK5le5GS9lh4FEBjBHqiMgD9lLFbCbuqFNAjNL2ZOy9Wd9F694IOzN9pZHBA==}
     engines: {node: '>=18'}
     dependencies:
-      '@inquirer/figures': 1.0.2
+      '@inquirer/figures': 1.0.3
       '@ljharb/through': 2.3.13
       ansi-escapes: 4.3.2
       chalk: 5.3.0
@@ -2164,8 +2154,8 @@ packages:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
 
-  /issue-parser/7.0.0:
-    resolution: {integrity: sha512-jgAw78HO3gs9UrKqJNQvfDj9Ouy8Mhu40fbEJ8yXff4MW8+/Fcn9iFjyWUQ6SKbX8ipPk3X5A3AyfYHRu6uVLw==}
+  /issue-parser/7.0.1:
+    resolution: {integrity: sha512-3YZcUUR2Wt1WsapF+S/WiA2WmlW0cWAoPccMqne7AxEBhCdFeTPjfv/Axb8V2gyCgY3nRw+ksZ3xSUX+R47iAg==}
     engines: {node: ^18.17 || >=20.6.1}
     dependencies:
       lodash.capitalize: 4.2.1
@@ -2981,17 +2971,17 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it-plugin-esm-bundle/3.0.0_release-it@17.3.0:
+  /release-it-plugin-esm-bundle/3.0.0_release-it@17.4.0:
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 17.3.0
+      release-it: 17.4.0
     dev: true
 
-  /release-it/17.3.0:
-    resolution: {integrity: sha512-7t9a2WEwqQKCdteshZUrO/3RX60plS5CzYAFr5+4Zj8qvRx1pFOFVglJSz4BeFAEd2yejpPxfI60+qRUzLEDZw==}
-    engines: {node: ^18.18.0 || ^20.8.0 || ^22.0.0}
+  /release-it/17.4.0:
+    resolution: {integrity: sha512-tYnk1tS530TLQtV8UQ+6OCiV3opVtkgwmLOpjXeV63ZtlZpSAGLZCXrA/I6ywiYKcEQWxW8WV7YJQvdxxGNZSg==}
+    engines: {node: ^18.18.0 || ^20.9.0 || ^22.0.0}
     hasBin: true
     dependencies:
       '@iarna/toml': 2.2.5
@@ -3003,9 +2993,9 @@ packages:
       git-url-parse: 14.0.0
       globby: 14.0.1
       got: 13.0.0
-      inquirer: 9.2.22
+      inquirer: 9.2.23
       is-ci: 3.0.1
-      issue-parser: 7.0.0
+      issue-parser: 7.0.1
       lodash: 4.17.21
       mime-types: 2.1.35
       new-github-release-url: 2.0.0

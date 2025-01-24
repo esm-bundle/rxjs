@@ -12,7 +12,7 @@ specifiers:
   mocha: 10.8.2
   prettier: 2.8.8
   pretty-quick: 4.0.0
-  release-it: 18.1.1
+  release-it: 18.1.2
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2
@@ -30,8 +30,8 @@ devDependencies:
   mocha: 10.8.2
   prettier: 2.8.8
   pretty-quick: 4.0.0_prettier@2.8.8
-  release-it: 18.1.1
-  release-it-plugin-esm-bundle: 3.0.0_release-it@18.1.1
+  release-it: 18.1.2
+  release-it-plugin-esm-bundle: 3.0.0_release-it@18.1.2
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2_rollup@2.79.2
   rxjs: 7.8.1
@@ -2502,16 +2502,16 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it-plugin-esm-bundle/3.0.0_release-it@18.1.1:
+  /release-it-plugin-esm-bundle/3.0.0_release-it@18.1.2:
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 18.1.1
+      release-it: 18.1.2
     dev: true
 
-  /release-it/18.1.1:
-    resolution: {integrity: sha512-rC/iVKri7U/Kp/Myujmsf7HG2gPq8My/LBVB72TbZZYKD14fmgDZC4Eyn8DD7Yh2h/G/YCCsRe1QQPrjXj9Mzg==}
+  /release-it/18.1.2:
+    resolution: {integrity: sha512-HOVRcicehCgoCsPFOu0iCBlEC8GDOoKS5s6ICkWmqomGEoZtRQ88D3RCsI5MciSU8vAQU+aWZW2z57NQNNb74w==}
     engines: {node: ^20.9.0 || >=22.0.0}
     hasBin: true
     dependencies:
@@ -2535,7 +2535,7 @@ packages:
       proxy-agent: 6.5.0
       semver: 7.6.3
       shelljs: 0.8.5
-      undici: 6.21.0
+      undici: 6.21.1
       update-notifier: 7.3.1
       url-join: 5.0.0
       wildcard-match: 5.1.4
@@ -2984,8 +2984,8 @@ packages:
     resolution: {integrity: sha512-uXEtSresNUlXQ1QL4/3dQORcGv7+J2ookOG2ybA/ga9+HYEXueT2o+8dUJQkpedsyTyCJ6jCCirRcKtdtx1kbg==}
     dev: true
 
-  /undici/6.21.0:
-    resolution: {integrity: sha512-BUgJXc752Kou3oOIuU1i+yZZypyZRqNPW0vqoMPl8VaoalSfeR0D8/t4iAS3yirs79SSMTxTag+ZC86uswv+Cw==}
+  /undici/6.21.1:
+    resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
     engines: {node: '>=18.17'}
     dev: true
 

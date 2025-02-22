@@ -16,7 +16,7 @@ specifiers:
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.8.1
+  rxjs: 7.8.2
 
 devDependencies:
   '@arkweid/lefthook': 0.7.7
@@ -34,7 +34,7 @@ devDependencies:
   release-it-plugin-esm-bundle: 3.0.0_release-it@18.1.2
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2_rollup@2.79.2
-  rxjs: 7.8.1
+  rxjs: 7.8.2
 
 packages:
 
@@ -830,7 +830,7 @@ packages:
     dependencies:
       chalk: 4.1.2
       lodash: 4.17.21
-      rxjs: 7.8.1
+      rxjs: 7.8.2
       shell-quote: 1.8.1
       supports-color: 8.1.1
       tree-kill: 1.2.2
@@ -1588,7 +1588,7 @@ packages:
       ansi-escapes: 4.3.2
       mute-stream: 2.0.0
       run-async: 3.0.0
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     dev: true
 
   /interpret/1.4.0:
@@ -2635,10 +2635,10 @@ packages:
       queue-microtask: 1.2.2
     dev: true
 
-  /rxjs/7.8.1:
-    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+  /rxjs/7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
     dependencies:
-      tslib: 2.1.0
+      tslib: 2.6.2
     dev: true
 
   /safe-buffer/5.2.1:
@@ -2942,10 +2942,6 @@ packages:
   /tree-kill/1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
     hasBin: true
-    dev: true
-
-  /tslib/2.1.0:
-    resolution: {integrity: sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==}
     dev: true
 
   /tslib/2.6.2:

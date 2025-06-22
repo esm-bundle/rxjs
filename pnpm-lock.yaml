@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-commonjs': 28.0.6
   '@rollup/plugin-node-resolve': 16.0.1
   chai: 4.3.4
-  concurrently: 9.1.2
+  concurrently: 9.2.0
   karma: 6.4.4
   karma-firefox-launcher: 2.1.3
   karma-jasmine: 5.1.0
@@ -23,7 +23,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 28.0.6_rollup@2.79.2
   '@rollup/plugin-node-resolve': 16.0.1_rollup@2.79.2
   chai: 4.3.4
-  concurrently: 9.1.2
+  concurrently: 9.2.0
   karma: 6.4.4
   karma-firefox-launcher: 2.1.3
   karma-jasmine: 5.1.0_karma@6.4.4
@@ -815,8 +815,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /concurrently/9.1.2:
-    resolution: {integrity: sha512-H9MWcoPsYddwbOGM6difjVwVZHl63nwMEwDJG/L7VGtuaJhb12h2caPG2tVPWs7emuYix252iGfqOyrz1GczTQ==}
+  /concurrently/9.2.0:
+    resolution: {integrity: sha512-IsB/fiXTupmagMW4MNp2lx2cdSN2FfZq78vF90LBB+zZHArbIQZjQtzXCiXnvTxCZSvXanTqFLWBjw2UkLx1SQ==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:

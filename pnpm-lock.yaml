@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@arkweid/lefthook': 0.7.7
-  '@rollup/plugin-commonjs': 28.0.8
+  '@rollup/plugin-commonjs': 28.0.9
   '@rollup/plugin-node-resolve': 16.0.3
   chai: 4.3.4
   concurrently: 9.2.1
@@ -20,7 +20,7 @@ specifiers:
 
 devDependencies:
   '@arkweid/lefthook': 0.7.7
-  '@rollup/plugin-commonjs': 28.0.8_rollup@2.79.2
+  '@rollup/plugin-commonjs': 28.0.9_rollup@2.79.2
   '@rollup/plugin-node-resolve': 16.0.3_rollup@2.79.2
   chai: 4.3.4
   concurrently: 9.2.1
@@ -426,8 +426,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@rollup/plugin-commonjs/28.0.8_rollup@2.79.2:
-    resolution: {integrity: sha512-o1Ug9PxYsF61R7/NXO/GgMZZproLd/WH2XA53Tp9ppf6bU1lMlTtC/gUM6zM3mesi2E0rypk+PNtVrELREyWEQ==}
+  /@rollup/plugin-commonjs/28.0.9_rollup@2.79.2:
+    resolution: {integrity: sha512-PIR4/OHZ79romx0BVVll/PkwWpJ7e5lsqFa3gFfcrFPWwLXLV39JVUzQV9RKjWerE7B845Hqjj9VYlQeieZ2dA==}
     engines: {node: '>=16.0.0 || 14 >= 14.17'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0||^4.0.0

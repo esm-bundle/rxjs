@@ -12,7 +12,7 @@ specifiers:
   mocha: 10.8.2
   prettier: 2.8.8
   pretty-quick: 4.2.2
-  release-it: 19.2.1
+  release-it: 19.2.2
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2
@@ -30,8 +30,8 @@ devDependencies:
   mocha: 10.8.2
   prettier: 2.8.8
   pretty-quick: 4.2.2_prettier@2.8.8
-  release-it: 19.2.1
-  release-it-plugin-esm-bundle: 3.0.0_release-it@19.2.1
+  release-it: 19.2.2
+  release-it-plugin-esm-bundle: 3.0.0_release-it@19.2.2
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2_rollup@2.79.2
   rxjs: 7.8.2
@@ -2220,16 +2220,16 @@ packages:
     engines: {node: '>= 20.19.0'}
     dev: true
 
-  /release-it-plugin-esm-bundle/3.0.0_release-it@19.2.1:
+  /release-it-plugin-esm-bundle/3.0.0_release-it@19.2.2:
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 19.2.1
+      release-it: 19.2.2
     dev: true
 
-  /release-it/19.2.1:
-    resolution: {integrity: sha512-Tu9kZKtCJkrLG6nD0OLbVdVP8wHgpQBpRvtZQmdEgGHDwg0FiiHmdnnPskTQllPWJFMtpHo3O7MHtr8/AWEFbA==}
+  /release-it/19.2.2:
+    resolution: {integrity: sha512-57TBUTBbBXLJsPufYS+Hsb1dSZKZ0ktiYgPkNc3Pmlq/QQtH9X0oD0SG2ib5CsXHTI11m19pyK60NXmvtE6cLg==}
     engines: {node: ^20.12.0 || >=22.0.0}
     hasBin: true
     dependencies:

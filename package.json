@@ -50,7 +50,7 @@
     "release-it": "19.2.4",
     "release-it-plugin-esm-bundle": "3.0.0",
     "rollup": "2.80.0",
-    "rollup-plugin-terser": "7.0.2",
+    "@rollup/plugin-terser": "0.1.0",
     "rxjs": "7.8.2"
   }
 }
